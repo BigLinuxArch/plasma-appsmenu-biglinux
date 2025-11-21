@@ -1,14 +1,14 @@
 # Maintainer: Bruno Goncalves <bigbruno@gmail.com>
 
 pkgname=plasma-appsmenu-biglinux
-pkgver=$(date +%y.%m.%d)
-pkgrel=$(date +%H%M)
+pkgver=25.04.09
+pkgrel=0458
 arch=('any')
 license=('GPL')
 url="https://github.com/biglinux/plasma-appsmenu-biglinux"
 pkgdesc="Fork with simplified interface for kickoff plasma Menu"
 depends=('plasma-desktop')
-source=("git+https://github.com/biglinux/plasma-appsmenu-biglinux.git")
+source=("git+https://github.com/biglinux/plasma-appsmenu-biglinux.git#branch=stable-2025-04-08_05-41")
 md5sums=(SKIP)
 if [ -e "${pkgname}.install" ];then
     install=${pkgname}.install
